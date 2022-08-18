@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/upTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="MAIÚSCULA"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editTextUpper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:minWidth="350dp"
+        android:layout_below="@+id/upTitleText"
+        android:inputType="text"
+        android:hint="Digite seu texto"
+        />
+
+    <Button
+        android:id="@+id/buttonUpper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_below="@+id/editTextUpper"
+        android:text="CONVERTER"
+        />
+
+
+</RelativeLayout>
+
