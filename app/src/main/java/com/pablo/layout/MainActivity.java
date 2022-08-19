@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         upButt = findViewById(R.id.upButton);
         lowButt = findViewById(R.id.lowButton);
 
-        upButt.setOnClickListener(new View.OnClickListener() {
+        lowButt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, LowerCase.class);
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        lowButt.setOnClickListener(new View.OnClickListener() {
+        upButt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, UpperCase.class);

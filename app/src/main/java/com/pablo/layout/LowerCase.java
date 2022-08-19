@@ -22,7 +22,7 @@ public class LowerCase extends AppCompatActivity {
         lowButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                lowEditText.getText().toString().toLowerCase();
+                lowEditText.setText(lowEditText.getText().toString().toLowerCase());
             }
         });
     }

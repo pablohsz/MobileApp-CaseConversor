@@ -24,7 +24,7 @@ public class UpperCase extends AppCompatActivity {
         upButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                upEditText.getText().toString().toUpperCase();
+                upEditText.setText(upEditText.getText().toString().toUpperCase());
             }
         });
     }
